@@ -1,9 +1,11 @@
+
 import './App.css';
-import LoginSignup from './Components/LoginSignUp/LoginSignup';
+import { MainRoutes } from './Pages/MainRoutes';
+
 function App() {
   return (
-    <div>
-      <LoginSignup/>
+    <div className="App">
+      <MainRoutes />
     </div>
   );
 }
